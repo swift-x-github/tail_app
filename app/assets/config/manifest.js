@@ -4,3 +4,6 @@
 //= link_tree ../../../vendor/javascript .js
 //= link_tree ../builds
 //= link bundles/bundle.js
+//= link_directory ../fonts .woff2
+//= link_directory ../fonts .woff
+//= link_directory ../fonts .ttf
