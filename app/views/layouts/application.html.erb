@@ -2,13 +2,10 @@
 <html>
   <head>
     <title>TailApp</title>
-    <%# <%= stylesheet_link_tag "application.tailwind", "data-turbo-track": "reload" %>
     <%= stylesheet_link_tag "style", "data-turbo-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
     <%= javascript_include_tag 'bundles/bundle', defer: true %>
     <%= csrf_meta_tags %>
-
-    <%# <%= render 'shared/header' %> 
   </head>
 
   <body>
