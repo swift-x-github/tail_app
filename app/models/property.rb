@@ -15,7 +15,4 @@ class Property < ApplicationRecord
   validates :floor, presence: true
   validates :year_of_construction, presence: true
 
-  def appartments?
-    property_type.name.downcase == "appartments"
-  end
 end
